@@ -1,0 +1,29 @@
+{
+  "name": "helpsreparos-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "ts-node src/server.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "graphql": "^14.5.8",
+    "koa": "^2.11.0",
+    "koa-graphql": "^0.8.0",
+    "koa-router": "^7.4.0",
+    "mongoose": "^5.8.7",
+    "pg": "^7.17.1",
+    "pg-hstore": "^2.3.3",
+    "sequelize": "^5.21.3",
+    "typescript": "^3.7.5"
+  },
+  "devDependencies": {
+    "@types/koa": "^2.11.0",
+    "@types/koa-graphql": "^0.8.3",
+    "@types/koa-router": "^7.4.0",
+    "ts-node": "^8.6.2"
+  }
+}
